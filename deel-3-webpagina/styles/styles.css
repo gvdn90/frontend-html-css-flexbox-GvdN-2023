@@ -1,1 +1,54 @@
 /*Schrijf hier jouw css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    text-align: center;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1A293A;
+    color: white;
+    padding: 25px 50px;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    flex-basis: 500px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.flex-item {
+    background-color: lightpink;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-basis: 280px;
+}
