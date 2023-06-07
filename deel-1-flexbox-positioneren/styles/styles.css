@@ -1,1 +1,81 @@
 /*Schrijf hier jouw CSS*/
+
+/*Opdracht 1*/
+
+.opdracht-1 .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*opdracht 2*/
+.opdracht-2 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.opdracht-2 .flex-item {
+    flex-basis: 100%;
+}
+
+/*opdracht 3*/
+.opdracht-3 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-3 .flex-item-1 {
+    align-self: flex-start;
+}
+
+.opdracht-3 .flex-item-2 {
+    align-self: center;
+}
+
+.opdracht-3 .flex-item-3 {
+    align-self: flex-end;
+}
+
+/*opdracht 4*/
+.opdracht-4 .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   gap: 10px;  /*Heb ik moeten afkijken*/
+}
+
+.opdracht-4 .flex-item {
+    /*Aangemaakt maar niet nodig gehad*/
+}
+
+/*opdracht 5*/
+
+.opdracht-5 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-5 .flex-column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.opdracht-5 .flex-column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opdracht-5 .flex-column3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
